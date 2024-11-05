@@ -106,6 +106,10 @@ ul {
     width: 100%;
 }
 
+.photo:hover {
+    transform: scale(352%);
+}
+
 /* A PROPOS */
 
 video {
@@ -132,3 +136,15 @@ video {
     font-size: 125%;
 }
 
+@media (max-width: 628px) {
+    nav  { display: none; }
+    .burger { display: none;}
+
+}
+.formulaire {
+    font-size: 80%;
+}
+
+.titrehead {
+    font-size: 130%;
+}
